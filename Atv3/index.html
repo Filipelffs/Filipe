@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <form>
+    
+    <form action = "#" method = "post">
 
         <fieldset>
             <legend>Dados Pessoais</legend>
@@ -36,12 +37,12 @@
         <fieldset>
             <legend>Histórico de Saúde</legend>
 
-            <label for = "doença">Possui alguma doença crônica?</label><br>
-            <input type = "radio" id = "doença" name = "sim" required>Sim<br>
-            <input type = "radio" id = "doença" name = "nao" required>Não<br><br>
+            <label>Possui alguma doença crônica?</label><br>
+            <input type = "radio" name = "sim" value="Sim" required>Sim<br>
+            <input type = "radio" name = "nao" value="Não" required>Não<br><br>
             
-            <label for = "medicamento">Quais medicamentos você utiliza regularmente?</label><br>
-            <textarea id="medicamento" name="medicamento" rows="5" cols="40" placeholder="Digite aqui..." required></textarea><br><br>
+            <label>Quais medicamentos você utiliza regularmente?</label><br>
+            <textarea name="medicamento" rows="5" cols="40" placeholder="Digite aqui..." required></textarea><br><br>
             
             <label for = "Fuma">Você fuma?</label><br>
             <input type = "checkbox" id = "Fuma" name = "fuma" required>Sim<br><br>
@@ -65,6 +66,7 @@
     
             <label for = "exercicio">Com que frequência você pratica exercícios físicos?</label><br>
             <select id = "exercicio" name = "exercicio" required>
+                <option value ="">Escolha...</option>
                 <option value = "Diariamente">Diariamente</option>
                 <option value = "Semanalmente">Semanalmente</option>
                 <option value = "Raramente">Raramente</option>
