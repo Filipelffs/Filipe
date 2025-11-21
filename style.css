@@ -3,15 +3,53 @@ body{
     margin: 20px;
     background-color: rgb(5, 29, 29);
     text-align: center;
-    padding: 10%;
+    padding: 5%;
+    color: rgb(236, 111, 230);
 }
-h1{
+
+header {
+    background: #ccc;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+nav a {
     color: white;
 }
-h2{
-    color: pink;
-    border-bottom: blue;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-li{
-    color: black;
+
+article {
+    background: #bbb;
+    padding: 20px;
+    width: 65%;
+    border: 2px solid black;
+}
+
+aside {
+    background: #bbb;
+    width: 30%;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ccc;
+    border: 2px solid black;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
