@@ -32,7 +32,8 @@ article {
     background: #bbb;
     padding: 20px;
     width: 65%;
-    border: 2px solid black;
+    border: 2px solid rgb(209, 13, 13);
+    color: black;
 }
 
 aside {
@@ -47,6 +48,7 @@ footer {
     padding: 20px;
     background: #ccc;
     border: 2px solid black;
+    color: black;
 }
 
 img {
