@@ -3,14 +3,26 @@ body {
     padding: 0;
     background-color: #fff;
 }
+.black{
+    background-color: #2b2b2d;
+    height: 120px;
+    width: 1920px;
+}
 
 .logo {
     display: block;
-    margin: 40px 50px;
     height: 30px;
     width: 30px;
+    
 }
 
+.text {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
 .footer {
     background-color: rgb(12, 12, 46);
     padding: 50px 0;
