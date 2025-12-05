@@ -3,26 +3,157 @@ body {
     padding: 0;
     background-color: #fff;
 }
-.black{
-    background-color: #2b2b2d;
-    height: 120px;
+
+
+:root{
+    --cor-head: #2b2b2d;
+}
+
+
+.Naomuda{
+    background-color: var(--cor-head);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    width: 1920px;
+    font-size: 23px;
+    padding: 1px 0;
+}
+
+
+.black {
+    background-color: var(--cor-head);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    gap: 20px;
+    position: sticky;
+}
+
+
+.logo, .tex {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+.logo img {
+    height: 32px;
+    width: 32px;
+}
+
+
+.logo {
+    margin-right: 10px;
+}
+
+
+.text {
+    display: flex;
+    color: white;
+    gap: 40px;
+    font-size: 20px;
+    flex: 1;              
+    justify-content: center; 
+}
+
+
+
+.logosInicial {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.logosInicial img {
+    height: 25px;
+    width: 25px;
+}
+
+
+.searchBox {
+    display: flex;
+    align-items: center;
+}
+
+
+.searchBox input {
+    width: 180px;
+    height: 34px;
+    border-radius: 18px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 15px;
+    font-size: 15px;
+    color: white;
+    transition: 0.2s;
+}
+
+
+.searchBox input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.searchBox input:focus {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: white;
+}
+
+
+.corpo{
+    background-color: black;
+    text-align: center;
+    height: 600px;
     width: 1920px;
 }
 
-.logo {
-    display: block;
-    height: 30px;
-    width: 30px;
-    
+.textoH1{
+    color:white;
+    font-size: 24px;
 }
 
-.text {
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    color: white;
+.textoP{
+    color: rgb(189, 185, 185);
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: justify;
+    font-size: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     background-color: rgb(12, 12, 46);
     padding: 50px 0;
@@ -32,6 +163,7 @@ body {
     align-items: center;
     gap: 50px;
 }
+
 
 .colunas {
     display: flex;
@@ -49,11 +181,13 @@ body {
     text-align: center;
 }
 
+
 .titulo {
     color: gray;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 
 .meta-area {
     display: flex;
@@ -61,6 +195,7 @@ body {
     align-items: center;
     gap: 12px;
 }
+
 
 .meta-logo {
     width: 120px;
@@ -70,4 +205,5 @@ body {
     font-size: 14px;
     color: rgb(180, 180, 180);
 }
+
 
