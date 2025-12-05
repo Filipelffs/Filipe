@@ -1,0 +1,43 @@
+body{
+    color: white;
+
+}
+
+
+.vermelho{
+    background-color: rgb(212, 12, 12);
+    display: inline-block;
+    height: 170px;
+    width: 1920px;
+    justify-content: center;
+    margin: -20px;
+
+}
+.preto{
+    background-color: black;
+    display: inline-block;
+    height: 50px;
+    width: 1920px;
+    justify-content: center;
+    margin: -20px;
+    ;
+}
+.conteiner{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin: 40px;
+    margin-top: -600px;
+    padding: 450px;
+    flex: 1;
+}
+.texto{
+    margin: 5px;
+    margin-top: -660px;
+    color:white;
+    flex: 2;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 400px;
+}
