@@ -2,386 +2,323 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Copia de Site</title>
-        <link rel="stylesheet" href="Native.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copia de Site</title>
+  <link rel="stylesheet" href="Native.css" />
 </head>
 
 <body>
-    <header>
+  <header>
+    <div class="Naomuda">
+      <p>
+        Participe da React Conf nos dias 7 e 8 de outubro.
+        <a href="https://conf.react.dev/" target="_blank" rel="noopener">Sabermais.</a>
+      </p>
+    </div>
 
+    <div class="black">
+      <div class="logo">
+        
+        <img src="https://reactnative.dev/img/header_logo.svg" alt="Logo React Native" />
+      </div>
 
-        <div class="Naomuda">
-            <p>Participe da React Conf nos dias 7 e 8 de outubro.
-                <a href="https://conf.react.dev/" target="_blank">Sabermais.</a>
-            </p>
+      <div class="tex">
+        <p>React Native</p>
+      </div>
+
+      <div class="text">
+        <p>Desenvovimento</p>
+        <p>Contribuindo</p>
+        <p>Comunidade</p>
+        <p>Vitrine</p>
+        <p>Blog</p>
+      </div>
+
+      <div class="logosInicial">
+
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEU..."
+          alt="github"
+        />
+        <img src="https://w7.pngwing.com/pngs/145/861/png-transparent-semicircle-computer-icons-circle-white-monochrome-color-thumbnail.png"
+          alt="Sei lá" />
+      </div>
+
+      <div class="searchBox">
+        <input type="text" placeholder="Procurar" />
+      </div>
+    </div>
+  </header>
+
+  <section class="etapa2">
+    <div class="Continuidade1">
+
+      <div class="linkss">
+        <button>
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X / Twitter" />
+          <p>Follow @reactnative</p>
+        </button>
+
+        <button>
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
+          <p>Star</p>
+        </button>
+      </div>
+
+      <div class="hero-content">
+        <img class="hero-logo" src="https://reactnative.dev/img/header_logo.svg" alt="logo" />
+        <div class="textH2">
+          <h1>React Native</h1>
         </div>
 
-
-        <div class="black">
-
-
-            <div class="logo">
-
-                <img src="https://reactnative.dev/img/header_logo.svg" alt="Logo React Native" class="logo">
-
-            </div>
-
-            <div class="tex">
-
-                <p>React Native</p>
-
-            </div>
-            <div class="text">
-
-                <p>Desenvovimento</p>
-
-                <p>Contribuindo</p>
-
-                <p>Comunidade</p>
-
-                <p>Vitrine</p>
-
-                <p>Blog</p>
-
-            </div>
-
-
-            <div class="logosInicial">
-
-                <img src="data:image/png;base64,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"
-                    alt="github" class="logo">
-
-                <img src="https://w7.pngwing.com/pngs/145/861/png-transparent-semicircle-computer-icons-circle-white-monochrome-color-thumbnail.png"
-                    alt="Sei lá" class="logo">
-
-            </div>
-
-
-
-            <div class="searchBox">
-
-                <input type="text" placeholder="Procurar" />
-
-            </div>
+        <div class="textP2">
+          <p>Aprenda uma vez, escreva em qualquer lugar.</p>
         </div>
 
-
-    </header>
-
-
-
-
-
-
-
-    <section class="etapa4">
-        <div class="textH4">
-
-            <h1>Desenvolvimento nativo para todos</h1>
-
+        <div class="hero-cta">
+          <button class="btn-primary">Comece agora</button>
+          <button class="btn-secondary">Aprenda o básico</button>
         </div>
+      </div>
+    </div>
+  </section>
 
-        <div class="textP4">
+  <section class="etapa3">
+    <div class="wrapper">
+      <div class="textH3">
+        <h1>Crie aplicativos nativos para Android, iOS e muito mais usando React.</h1>
+      </div>
 
-            <p>React Native permite criar aplicativos verdadeiramente nativos sem comprometer a experiência do usuário.
-                Ele fornece um conjunto essencial de componentes nativos independentes de plataforma, como `UIView`
-                <mark>View</mark>, `UIView` e `UIView`, que se relacionam diretamente com os blocos de construção da
-                interface do
-                usuário nativa da plataforma. <mark>TextImage</mark>
-            </p>
+      <div class="textP3">
+        <p>React Native traz os melhores recursos do desenvolvimento com React para o desenvolvimento nativo.</p>
+        <p>É uma biblioteca JavaScript de primeira linha para a criação de interfaces de usuário.</p>
+      </div>
 
-        </div>
-        <div class="img4">
-            <img src="https://reactnative.dev/img/homepage/dissection-dark.png" alt="Celular" height="600px"
-                width="550px">
-        </div>
-    </section>
+      <div class="demo-row">
+        <iframe src="index.js" title="Iframe Example" class="demo-iframe"></iframe>
 
-    <section class="etapa5">
+        <img src="https://reactnative.dev/img/homepage/devices-dark.png" alt="celular" class="devices-img" />
+      </div>
 
+      <div class="textP31">
+        <p><strong>Escrito em JavaScript, renderizado com código nativo.</strong> Os elementos primitivos do React são
+          renderizados na interface do usuário da plataforma nativa, o que significa que seu aplicativo usa as mesmas
+          APIs da plataforma nativa que outros aplicativos.</p>
+      </div>
+    </div>
+  </section>
 
-        <div class="textH5">
-            <h1>Comece com o pé direito usando uma estrutura.</h1>
-        </div>
+  <section class="etapa4">
+    <div class="wrapper">
+      <div class="textH4">
+        <h1>Desenvolvimento nativo para todos</h1>
+      </div>
 
+      <div class="textP4">
+        <p>React Native permite criar aplicativos verdadeiramente nativos sem comprometer a experiência do usuário.
+          Ele fornece um conjunto essencial de componentes nativos independentes de plataforma, como <code>View</code>,
+          <mark>Text</mark> e <code>Image</code>, que se relacionam diretamente com os blocos de construção da interface
+          do usuário nativa da plataforma.</p>
+      </div>
 
-        <div class="text5">
+      <div class="img4">
+        <img src="https://reactnative.dev/img/homepage/dissection-dark.png" alt="Celular" />
+      </div>
+    </div>
+  </section>
 
-            <p>React Native traz o paradigma de programação React para plata
-                formas como Android e iOS. Ele não prescreve como fazer rote
-                amento ou como acessar cada uma das inúmeras APIs da platafo
-                rma. Para criar um novo aplicativo com React Native, recomen
-                damos um framework como <a href="https://expo.dev/" target="_blank">o Expo</a>.</p>
+  <section class="etapa5">
+    <div class="wrapper">
+      <div class="textH5">
+        <h1>Comece com o pé direito usando uma estrutura.</h1>
+      </div>
 
-        </div>
+      <div class="text5">
+        <p>React Native traz o paradigma de programação React para plataformas como Android e iOS. Para criar um novo
+          aplicativo com React Native, recomendamos um framework como <a href="https://expo.dev/" target="_blank"
+            rel="noopener">o Expo</a>.</p>
+      </div>
 
+      <div class="img5">
+        <article class="i5">
+          <img src="https://reactnative.dev/img/homepage/file-based-routing-dark.png" alt="Roteamento" />
+          <div class="texth5">
+            <h2>Roteamento baseado em arquivos</h2>
+          </div>
+          <div class="p5">
+            <p>Crie telas em pilha, modais, de gaveta e com abas com o mínimo de código repetitivo usando seu sistema de
+              arquivos.</p>
+          </div>
+        </article>
 
-        <div class="img5">
+        <article class="i5">
+          <img src="https://reactnative.dev/img/homepage/libraries-dark.png" alt="Libraries" />
+          <div class="texth5">
+            <h2>Utilize qualquer biblioteca, SDK ou código nativo.</h2>
+          </div>
+          <div class="p5">
+            <p>Gere alterações nativas ou escreva seu próprio código nativo. Use mais de 50 módulos para criar seu
+              aplicativo.</p>
+          </div>
+        </article>
 
-            <article class="i5"><img src="https://reactnative.dev/img/homepage/file-based-routing-dark.png"
-                    alt="Roteamento baseado em arquivos" height="180px" width="250px">
+        <article class="i5">
+          <img src="https://reactnative.dev/img/homepage/tools-dark.png" alt="Tools" />
+          <div class="texth5">
+            <h2>Ferramentas de desenvolvedor</h2>
+          </div>
+          <div class="p5">
+            <p>Comece rapidamente com o Expo Go e, em seguida, continue com o expo-dev-client para funcionalidades
+              nativas.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
 
-                <div class="texth5">
-                    <h2>Roteamento baseado em arquivos</h2>
-                </div>
+  <section class="etapa6">
+    <div class="wrapper">
+      <div class="textH6">
+        <h1>Assista e aprenda</h1>
+      </div>
 
-                <div class="p5">
-                    <p>Crie telas em pilha, modais, de gaveta e com abas com
-                        o mínimo de código repetitivo usando seu sistema de
-                        arquivos.</p>
-                </div>
+      <div class="textP6">
+        <p>Assista às palestras da equipe React e aprenda a tirar o máximo proveito do React Native. Encontre as
+          últimas novidades no <a href="https://bsky.app/profile/reactnative.dev" target="_blank"
+            rel="noopener">Bluesky</a> e no <a href="https://x.com/intent/follow?screen_name=reactnative"
+            target="_blank" rel="noopener">X</a>.</p>
+      </div>
 
+      <div class="vid61">
+        <video controls>
+          <source src="https://youtu.be/NCAY0HIfrwc" type="video/mp4" />
+          Seu navegador não suporta vídeo.
+        </video>
 
-            </article>
+        <video controls>
+          <source src="https://youtu.be/wUDeLT6WXnQ" type="video/mp4" />
+          Seu navegador não suporta vídeo.
+        </video>
+      </div>
+    </div>
+  </section>
 
+  <section class="etapa7">
+    <div class="wrapper">
+      <div class="textH7">
+        <h1>Com suporte da Meta. Impulsionado pela comunidade.</h1>
+      </div>
 
-            <article class="i5"><img src="https://reactnative.dev/img/homepage/libraries-dark.png"
-                    alt="Utilize qualquer biblioteca, SDK ou código nativo." height="180px" width="250px">
-
-                <div class="texth5">
-                    <h2>Utilize qualquer biblioteca, SDK ou código nativo.</h2>
-                </div>
-
-                <div class="p5">
-                    <p>Gere alterações nativas ou escreva seu próprio código
-                        nativo. Use mais de 50 módulos para criar seu aplicativo.</p>
-                </div>
-
-            </article>
-
-
-            <article class="i5"><img src="https://reactnative.dev/img/homepage/tools-dark.png"
-                    alt="Ferramentas de desenvolvedor" height="180px" width="250px">
-
-                <div class="texth5">
-                    <h2>Ferramentas de desenvolvedor</h2>
-                </div>
-
-                <div class="p5">
-                    <p>Comece rapidamente com o Expo Go e, em seguida, continue
-                        com o expo-dev-client: um módulo que adiciona as ferra
-                        mentas do Expo a aplicativos que exigem alterações nativas.</p>
-                </div>
-
-
-            </article>
-
-
-        </div>
-
-
-    </section>
-
-
-
-
-    <section class="etapa6">
-
-
-        <div class="textH6">
-
-            <h1>Assista e aprenda</h1>
-
-        </div>
-
-
-        <div class="textP6">
-
-            <p>Assista às palestras da equipe React e aprenda a tirar o máximo proveito do React Native.
-                Encontre as últimas novidades no <a href="https://bsky.app/profile/reactnative.dev"
-                    target="_blank">Bluesky</a> e no <a
-                    href="https://x.com/intent/follow?screen_name=reactnative&region=follow_link&original_referer=https://reactnative.dev/"
-                    target="_blank">X</a>.</p>
-
-        </div>
-
-
-        <div class="vid61">
-
-            <video controls>
-                <source src="https://youtu.be/NCAY0HIfrwc" type="video/mp4">
-                <p>Facebook 2019: Inovação móvel com React Native </p>
-            </video>
-            <video controls>
-                <source src="https://youtu.be/wUDeLT6WXnQ" type="video/mp4">
-                <p>Por que usar React Native? </p>
-            </video>
-
-
-        </div>
-
-
-    </section>
-
-
-
-
-    <section class="etapa7">
-
-        <div class="textH7">
-            <h1>Com suporte da Meta. Impulsionado pela comunidade.</h1>
-        </div>
-
+      <div class="content7">
         <div class="textP71">
-            <p>A Meta lançou o React Native em 2015 e vem mantendo-o
-                desde então.</p>
+          <p>A Meta lançou o React Native em 2015 e vem mantendo-o desde então.</p>
 
-            <p>Em 2018, o React Native tinha o <a href="https://oc
-                toverse.github.com/2018/projects#repositories">segundo maior </a>número de contribuidores entre todos
-                os
-                repositórios do GitHub. Hoje, o React Native é manti
-                do por contribuiçõesde indivíduos e empresas do mundo
-                todo, incluindo <a href="https://www.callstack.com/">
-                    Callstack</a>, <a href="https://expo.dev/">Expo</a>,
-                <a href="https://infinite.red/">Infinite Red</a>, <a
-                    href="https://www.microsoft.com/pt-br/">Microsoft</a>
-                e <a href="https://swmansion.com/">Software Mansion</a>.
-            </p>
-
-            <p>Nossa comunidade está sempre lançando novos projetos empolgantes
-                e explorando plataformas além do Android e iOS com repositórios como
-                <a href="https://github.com/microsoft/react-native-windows#readme">
-                    React Native Windows</a>, <a href="https://github.com/microsoft/react-native-macos#readme">
-                    React Native macOS</a> e <a href="https://github.com/necolas/react-native-web#readme">React Native
-                    Web</a> .
-            </p>
-
+          <p>Hoje, o React Native é mantido por contribuições de indivíduos e empresas do mundo todo, incluindo
+            <a href="https://www.callstack.com/" target="_blank" rel="noopener">Callstack</a>, <a
+              href="https://expo.dev/" target="_blank" rel="noopener">Expo</a>, <a
+              href="https://infinite.red/" target="_blank" rel="noopener">Infinite Red</a>, <a
+              href="https://www.microsoft.com/pt-br/" target="_blank" rel="noopener">Microsoft</a> e <a
+              href="https://swmansion.com/" target="_blank" rel="noopener">Software Mansion</a>.
+          </p>
         </div>
 
         <div class="textP72">
-            <p>React Native está sendo usado em milhares de aplicativos,
-                mas é provável que você já o tenha usado em um destes aplicativos:
+          <p>React Native está sendo usado em milhares de aplicativos — provavelmente você já usou algum:</p>
 
-                <img src="https://reactnative.dev/img/showcase/facebook.webp" alt=" Facebook" class="social-icon">
+          <div class="showcase">
 
-                <img src="https://reactnative.dev/img/showcase/adsmanager.png" alt="ADS-Manager" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/facebook.webp" alt="Facebook" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/metahorizon.webp" alt="Meta Horizon" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/adsmanager.png" alt="Ads" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/messengerdesktop.png" alt="Mensseger"
-                    class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/metahorizon.webp" alt="Meta Horizon" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/officemobile.png" alt="Office Mobile"
-                    class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/messengerdesktop.png" alt="Messenger" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/outlookmobile.png" alt="Outlook Mobile"
-                    class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/officemobile.png" alt="Office" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/teamsmobile.png" alt="Teams Mobile" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/outlookmobile.png" alt="Outlook" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/xboxgamepass.png" alt="Xbox" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/teamsmobile.png" alt="Teams" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/amazon-shopping.png" alt="Amazon" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/xboxgamepass.png" alt="Gamepass" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/shopify.png" alt="Shopify" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/amazon-shopping.png" alt="Amazon" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/shop.webp" alt="Shop" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/shopify.png" alt="Shopify" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/coinbase.png" alt="Coins Base" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/coinbase.png" alt="Coinbase" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/puma.png" alt="Puma" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/tesla.png" alt="Tesla" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/playstation.png" alt="Playstation" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/discord.png" alt="Discord" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/wordpress.png" alt="Wordpress" class="social-icon">
+            <img src="https://reactnative.dev/img/showcase/nfl.webp" alt="NFL" class="social-icon" />
 
-                <img src="https://reactnative.dev/img/showcase/tableau.webp" alt="Tableau" class="social-icon">
+          </div>
 
-                <img src="https://reactnative.dev/img/showcase/flipkart.png" alt="Flipkart" class="social-icon">
+          <p>e <a href="https://reactnative.dev/showcase" target="_blank" rel="noopener">muito mais.</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                <img src="https://reactnative.dev/img/showcase/mercari.png" alt="Mercari" class="social-icon">
+  <section id="cover">
+    <div class="continuidade">
+      <img src="https://reactnative.dev/img/header_logo.svg" alt="logo Meta" width="100" height="100" />
+      <div class="textH8">
+        <h1>Bem-vindo(a) à comunidade React Native!</h1>
+      </div>
 
-                <img src="https://reactnative.dev/img/showcase/discord.png" alt="Discord" class="social-icon">
+      <div class="butao">
+        <button>Comece agora</button>
+      </div>
+    </div>
+  </section>
 
-                <img src="https://reactnative.dev/img/showcase/bloomberg.png" alt="Bloomberg" class="social-icon">
-
-                <img src="https://reactnative.dev/img/showcase/tesla.png" alt="Tesla" class="social-icon">
-
-                <img src="https://reactnative.dev/img/showcase/bolt.png" alt="Bolt" class="social-icon">
-
-                <img src="https://reactnative.dev/img/showcase/mattermost.webp" alt="Mattermost" class="social-icon">
-
-                <img src="https://reactnative.dev/img/showcase/klarna.jpg" alt="klarna" class="social-icon">
-
-                <img src="https://reactnative.dev/img/showcase/nfl.webp" alt="NFL" class="social-icon">
-
-
-                e <a href="https://reactnative.dev/showcase">muito mais.</a>
-            </p>
+  <footer>
+    <div class="footer">
+      <div class="colunas">
+        <div class="coluna">
+          <p class="titulo">DESENVOLVER</p>
+          <p>Guias</p>
+          <p>Componentes</p>
+          <p>APIs</p>
+          <p>Arquitetura</p>
         </div>
 
-    </section>
-
-    <section id = "cover">  
-
-        <div class="continuidade">
-
-            <img src = https://reactnative.dev/img/header_logo.svg alt ="logo Meta" width="100px" height="100px">
-
-            <div class="textH8">
-                <h1>Bem-vindo(a) à comunidade React Native!</h1>
-            </div>
-
-            <div class="butao">
-                <button>Comece agora</button>
-            </div>
+        <div class="coluna">
+          <p class="titulo">PARTICIPAR</p>
+          <p>Vitrine</p>
+          <p>Contribuindo</p>
+          <p>Comunidade</p>
+          <p>Diretório</p>
+          <p>Stack Overflow</p>
         </div>
 
-    </section>
-
-
-
-
- 
-
-
-    <footer>
-        <div class="footer">
-
-            <div class="colunas">
-                <div class="coluna">
-                    <p class="titulo">DESENVOLVER</p>
-                    <p>Guias</p>
-                    <p>Componentes</p>
-                    <p>APIs</p>
-                    <p>Arquitetura</p>
-                </div>
-
-                <div class="coluna">
-                    <p class="titulo">PARTICIPAR</p>
-                    <p>Vitrine</p>
-                    <p>Contribuindo</p>
-                    <p>Comunidade</p>
-                    <p>Diretório</p>
-                    <p>Stack Overflow</p>
-                </div>
-
-                <div class="coluna">
-                    <p class="titulo">ENCONTRE-NOS</p>
-                    <p>Blog</p>
-                    <p>X</p>
-                    <p>Céu azul</p>
-                    <p>GitHub</p>
-                </div>
-
-                <div class="coluna">
-                    <p class="titulo">EXPLORE MAIS</p>
-                    <p>ReactJS</p>
-                    <p>Política de Privacidade</p>
-                    <p>Termos de Serviço</p>
-                </div>
-            </div>
-
-            <div class="meta-area">
-                <img src="https://reactnative.dev/img/header_logo.svg" class="meta-logo">
-                <p class="copy">Copyright © 2025 Meta Platforms, Inc.</p>
-            </div>
-
+        <div class="coluna">
+          <p class="titulo">ENCONTRE-NOS</p>
+          <p>Blog</p>
+          <p>X</p>
+          <p>Céu azul</p>
+          <p>GitHub</p>
         </div>
-    </footer>
 
+        <div class="coluna">
+          <p class="titulo">EXPLORE MAIS</p>
+          <p>ReactJS</p>
+          <p>Política de Privacidade</p>
+          <p>Termos de Serviço</p>
+        </div>
+      </div>
+
+      <div class="meta-area">
+        <img src="https://reactnative.dev/img/header_logo.svg" class="meta-logo" alt="meta logo" />
+        <p class="copy">Copyright © 2025 Meta Platforms, Inc.</p>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
