@@ -244,7 +244,7 @@ section {
 }
 
 .etapa3{
-  height: 950px;
+  height: 1250px;
 }
 .textH3 h1 {
   color: #fff;
@@ -284,6 +284,7 @@ section {
   border-bottom: 1px solid #3c3c3c;
   font-family: monospace;
 }
+
 
 .demo-iframe {
   width: 100%;
