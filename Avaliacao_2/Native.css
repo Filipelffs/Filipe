@@ -258,6 +258,10 @@ section {
   margin: 0 auto 28px;
 }
 
+.frame{
+  display: flex;
+}
+
 .code-wrapper {
   background: #1e1e1e;
   border-radius: 12px;
