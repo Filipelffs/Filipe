@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
 }
-img#header{
+header{
     min-width: 20%;
     max-width: 40%;
     width: 30%;
@@ -10,8 +10,14 @@ img#header{
     position: center;
 
 }
-a#links{
+.links{
     background-color: gray;
+    height: 70px;
+    width: 1360px;
+    text-align: center;
+}
+
+a{
     color: white;
     padding: 30px;
     overflow: hidden;
