@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+img#header{
+    min-width: 20%;
+    max-width: 40%;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px;
+    position: center;
+
+}
+a#links{
+    background-color: gray;
+    color: white;
+    padding: 30px;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-decoration: none;
+}
