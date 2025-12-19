@@ -1,27 +1,34 @@
 *{
     box-sizing: border-box;
 }
-header{
-    min-width: 20%;
-    max-width: 40%;
-    width: 30%;
-    height: 30%;
-    border-radius: 8px;
-    position: center;
 
+body{
+    display: flex;
+    background-color: rgb(233, 229, 229);
 }
-.links{
-    background-color: gray;
-    height: 70px;
-    width: 1360px;
+
+img{
+    margin-top: 60px;
+    margin-left: 5%;
+    border-radius: 15px 0;
+    border-color: darkblue;
+}
+
+.Menu{
     text-align: center;
+    margin-top: 80px;
+    margin-left: 8%;
 }
 
-a{
-    color: white;
-    padding: 30px;
-    overflow: hidden;
-    float: left;
-    display: block;
-    text-decoration: none;
+legend{
+    font-size: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    font-size: 34px;
+}
+
+section{
+    height: 500px;
 }
