@@ -2,8 +2,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Check-in | Fisiomais</title>
-    <link rel="stylesheet" href="css/pages.css">
+    <title>Fisiomais | Dashboard</title>
+    <link rel="stylesheet" href="Css/Dashboard.css">
 </head>
 <body>
 
@@ -17,18 +17,21 @@
         <a href="Checkin.html">Check-in</a>
         <a href="Financeiro.html">Financeiro</a>
         <a href="Relatorios.html">Relatórios</a>
-    </nav>
+    </nav>s
 </aside>
 
 <main class="main">
-    <h1>Check-in de Paciente</h1>
+    <header>
+        <h1>Dashboard Geral</h1>
+        <span>Bem-vindo(a)!</span>
+    </header>
 
-    <form class="form" action="BancoCheck.html">
-        <label>Nome do Paciente</label>
-        <input type="text" required>
-
-        <button>Confirmar Presença</button>
-    </form>
+    <section class="cards">
+        <div class="card"><h3>Atendimentos</h3><p>0</p></div>
+        <div class="card"><h3>Pacientes</h3><p>0</p></div>
+        <div class="card"><h3>Faturamento</h3><p>R$ 0</p></div>
+        <div class="card"><h3>Faltas</h3><p>0%</p></div>
+    </section>
 </main>
 
 </body>

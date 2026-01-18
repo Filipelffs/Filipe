@@ -2,10 +2,65 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relatórios</title>
+    <title>Relatórios | Fisiomais</title>
+    <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
-    
+
+<aside class="barra">
+    <h2>Fisiomais</h2>
+    <nav>
+        <a href="Dashboard.html">Dashboard</a>
+        <a href="Clientes.html">Pacientes</a>
+        <a href="Profissionais.html">Profissionais</a>
+        <a href="Agenda.html">Agenda</a>
+        <a href="Checkin.html">Check-in</a>
+        <a href="Financeiro.html">Financeiro</a>
+        <a href="Relatorios.html">Relatórios</a>
+    </nav>
+</aside>
+
+<main class="main">
+    <h1>Relatórios</h1>
+
+    <section class="form">
+        <label>Tipo de Relatório</label>
+        <select>
+            <option>Atendimentos</option>
+            <option>Financeiro</option>
+            <option>Pacientes</option>
+            <option>Profissionais</option>
+        </select>
+
+        <label>Data Inicial</label>
+        <input type="date">
+
+        <label>Data Final</label>
+        <input type="date">
+
+        <button>Gerar Relatório</button>
+    </section>
+
+    <section class="tabela">
+        <h3>Resultado</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
 </body>
 </html>

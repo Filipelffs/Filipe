@@ -2,10 +2,63 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financeiro</title>
+    <title>Financeiro | Fisiomais</title>
+    <link rel="stylesheet" href="css/pages.css">
 </head>
 <body>
-    
+
+<aside class="barra">
+    <h2>Fisiomais</h2>
+    <nav>
+        <a href="Dashboard.html">Dashboard</a>
+        <a href="Clientes.html">Pacientes</a>
+        <a href="Profissionais.html">Profissionais</a>
+        <a href="Agenda.html">Agenda</a>
+        <a href="Checkin.html">Check-in</a>
+        <a href="Financeiro.html">Financeiro</a>
+        <a href="Relatorios.html">Relatórios</a>
+    </nav>
+</aside>
+
+<main class="main">
+    <h1>Financeiro</h1>
+
+    <section class="cards">
+        <div class="card">
+            <h3>Entradas</h3>
+            <p>R$ 0,00</p>
+        </div>
+        <div class="card">
+            <h3>Saídas</h3>
+            <p>R$ 0,00</p>
+        </div>
+        <div class="card">
+            <h3>Saldo</h3>
+            <p>R$ 0,00</p>
+        </div>
+    </section>
+
+    <section class="form">
+        <h3>Lançamento Financeiro</h3>
+
+        <label>Descrição</label>
+        <input type="text">
+
+        <label>Tipo</label>
+        <select>
+            <option>Entrada</option>
+            <option>Saída</option>
+        </select>
+
+        <label>Valor (R$)</label>
+        <input type="number" step="0.01">
+
+        <label>Data</label>
+        <input type="date">
+
+        <button>Salvar</button>
+    </section>
+</main>
+
 </body>
 </html>

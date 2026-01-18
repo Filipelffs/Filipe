@@ -1,77 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Divisão.css">
-    <title>Fisiomais</title>
-
+    <title>Fisiomais | Login</title>
+    <link rel="stylesheet" href="Css/Login.css">
 </head>
-
 <body>
 
-    <div class="conteiner">
+<div class="container">
 
-        <section class=Login>
+    <section class="login">
+        <h1>Bem-vindo(a) de volta!</h1>
+        <img src="Fisiomais.png" alt="Logo Fisiomais">
 
-            <h1>Bem-vindo(a) de volta!</h1>
+        <form action="Dashboard.html">
+            <fieldset>
+                <legend>Login</legend>
 
-            <img src="Fisiomais.png" atl="Logo" width="90px" height="90px">
+                <label>Email</label>
+                <input type="email" required>
 
-            <form action="#" method="get">
-                <br>
-                <legend>Já tem uma conta? Faça o seu Login</legend>
+                <label>Senha</label>
+                <input type="password" required>
 
-                <fieldset>
+                <button>Entrar</button>
+            </fieldset>
+        </form>
+    </section>
 
-                    <br>
-                    <label for="Login">Tela de Login</label><br><br>
-                    Email:<input type="email" placeholder="Digite o seu email..." name="Login" id="Login" required><br>
-                    Senha:<input type="password" placeholder="Digite sua senha..." name="Login" id="Login"
-                        required><br><br>
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Resetar</button>
+    <section class="cadastro">
+        <h1>Ainda não tem cadastro?</h1>
 
-                </fieldset>
+        <form action="Dashboard.html">
+            <fieldset>
+                <legend>Cadastre-se</legend>
 
-            </form>
+                <label>Nome</label>
+                <input type="text" required>
 
-        </section>
+                <label>Email</label>
+                <input type="email" required>
 
-        <br>
-        <br>
+                <label>Senha</label>
+                <input type="password" required>
 
-        <section class="Cadastro">
-            <div class="Conserto">
-                <h1>Ainda não tem cadastro?</h1>
+                <button>Cadastrar</button>
+            </fieldset>
+        </form>
+    </section>
 
-                <form action="#" method="get">
+</div>
 
-                    <legend>Cadastre-se</legend>
-                    <br>
-                    <fieldset>
-
-                        <label for="Cadastro">Tela de Cadastro</label><br><br>
-                        Nome:<input type="text" name="nome" id="Cadastro" placeholder="Digite seu nome..." required><br>
-                        Email:<input type="email" name="email" id="Cadastro" placeholder="Digite seu email..."
-                            required><br>
-                        Senha:<input type="password" name="senha" id="Cadastro" placeholder="Digite sua senha..."
-                            required><br><br>
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Resetar</button>
-
-                    </fieldset>
-
-                </form>
-
-            </div>
-
-        </section>
-
-    </div>
 </body>
-
-
 </html>
