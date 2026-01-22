@@ -42,7 +42,16 @@ input {
     padding: 8px;
 }
 
-button {
+button#e {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: #2c8181;
+    border: none;
+    border-radius: 8px;
+}
+
+button#i {
     width: 100%;
     padding: 10px;
     background: #2c8181;
