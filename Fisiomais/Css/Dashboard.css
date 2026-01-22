@@ -116,3 +116,21 @@ th, td {
 th {
     background: #f0f0f0;
 }
+.barra {
+    position: fixed;
+    left: -180px;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background: #2c8181;
+    transition: 0.3s;
+}
+
+.barra:hover {
+    left: 0;
+}
+
+.main {
+    margin-left: 40px;
+}
+

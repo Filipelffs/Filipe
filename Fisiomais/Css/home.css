@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg,#2c8181,#1b4d4d);
+    color: white;
+    text-align: center;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.btn-login {
+    background: white;
+    color: #2c8181;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: white;
+    color: #2c8181;
+    padding: 12px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
+}
+.feature {
+    background: rgba(255,255,255,0.2);
+    padding: 20px;
+    border-radius: 12px;
+}

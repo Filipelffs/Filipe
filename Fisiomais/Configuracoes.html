@@ -27,20 +27,49 @@
 
     <main class="main">
         <h1>Configurações do Sistema</h1>
-
-        <div class="form">
-            <label>Nome da Clínica</label>
-            <input type="text" value="Fisiomais">
-
-            <label>Email</label>
-            <input type="email" value="contato@fisiomais.com">
-
-            <label>Senha</label>
-            <input type="password">
-
-            <button>Salvar Alterações</button>
-        </div>
-    </main>
+        
+        <section class="form">
+        <h3>Dados da Clínica</h3>
+        <label>Nome</label>
+        <input type="text">
+        
+        <label>CNPJ</label>
+        <input type="text">
+        
+        <label>Telefone</label>
+        <input type="text">
+        
+        <label>Email</label>
+        <input type="email">
+        </section>
+        
+        <section class="form">
+        <h3>Usuário Administrador</h3>
+        <label>Nome</label>
+        <input type="text">
+        
+        <label>Email</label>
+        <input type="email">
+        
+        <label>Nova Senha</label>
+        <input type="password">
+        </section>
+        
+        <section class="form">
+        <h3>Preferências do Sistema</h3>
+        <label>Horário de funcionamento</label>
+        <input type="text" placeholder="08:00 às 18:00">
+        
+        <label>Moeda</label>
+        <select>
+        <option>Real (R$)</option>
+        <option>Dólar ($)</option>
+        </select>
+        
+        <button>Salvar Configurações</button>
+        </section>
+        </main>
+        
 
 </body>
 

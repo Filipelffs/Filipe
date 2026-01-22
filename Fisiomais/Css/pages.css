@@ -48,31 +48,41 @@ h1 {
 
 .form {
     background: white;
-    padding: 25px;
-    max-width: 400px;
-    border-radius: 12px;
+    padding: 30px;
+    max-width: 450px;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
 }
 
 .form label {
+    font-weight: bold;
+    margin-top: 15px;
     display: block;
-    margin-top: 10px;
 }
 
-.form input {
+.form input, 
+.form select {
     width: 100%;
-    padding: 8px;
-    margin-top: 5px;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.form input:focus {
+    border-color: #2c8181;
 }
 
 .form button {
-    margin-top: 20px;
+    margin-top: 25px;
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     background: #2c8181;
     color: white;
     border: none;
-    border-radius: 8px;
-    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
 }
 .cards {
     display: grid;
@@ -110,4 +120,22 @@ table {
 th, td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
+}
+
+.barra {
+    position: fixed;
+    left: -180px;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background: #2c8181;
+    transition: 0.3s;
+}
+
+.barra:hover {
+    left: 0;
+}
+
+.main {
+    margin-left: 40px;
 }
