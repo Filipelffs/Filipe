@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Relatórios | Fisiomais</title>
-    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="Css/Dashboard.css">
 </head>
 <body>
 
@@ -24,7 +24,7 @@
 </aside>
 
 <main class="main">
-    <h1>Relatórios</h1>
+    <h1>Relatórios Gerenciais</h1>
 
     <section class="form">
         <label>Tipo de Relatório</label>
@@ -36,31 +36,41 @@
         </select>
 
         <label>Data Inicial</label>
-        <input type="date">
+        <input type="date" value="2026-01-01">
 
         <label>Data Final</label>
-        <input type="date">
+        <input type="date" value="2026-01-31">
 
         <button>Gerar Relatório</button>
     </section>
 
     <section class="tabela">
-        <h3>Resultado</h3>
+        <h3>Resultado - Atendimentos Janeiro/2026</h3>
         <table>
-            <thead>
-                <tr>
-                    <th>Data</th>
-                    <th>Descrição</th>
-                    <th>Valor</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>--</td>
-                    <td>--</td>
-                    <td>--</td>
-                </tr>
-            </tbody>
+            <tr>
+                <th>Data</th>
+                <th>Paciente</th>
+                <th>Profissional</th>
+                <th>Procedimento</th>
+            </tr>
+            <tr>
+                <td>05/01/2026</td>
+                <td>Ana Lima</td>
+                <td>Dr. Carlos</td>
+                <td>Fisioterapia Lombar</td>
+            </tr>
+            <tr>
+                <td>10/01/2026</td>
+                <td>Pedro Alves</td>
+                <td>Dra. Julia</td>
+                <td>Reabilitação Joelho</td>
+            </tr>
+            <tr>
+                <td>18/01/2026</td>
+                <td>Marcos Silva</td>
+                <td>Dr. Carlos</td>
+                <td>Pós-operatório Ombro</td>
+            </tr>
         </table>
     </section>
 </main>

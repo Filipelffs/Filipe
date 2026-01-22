@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Agenda | Fisiomais</title>
     <link rel="stylesheet" href="css/pages.css">
 </head>
+
 <body>
 
-<aside class="barra">
-    <h2>Fisiomais</h2>
-    <nav>
-        <a href="Dashboard.html">Dashboard</a>
-        <a href="Clientes.html">Pacientes</a>
-        <a href="Profissionais.html">Profissionais</a>
-        <a href="Agenda.html">Agenda</a>
-        <a href="Checkin.html">Check-in</a>
-        <a href="Prontuarios.html">Prontuários</a>
-        <a href="Financeiro.html">Financeiro</a>
-        <a href="Mensalidades.html">Mensalidades</a>
-        <a href="Configuracoes.html">Configurações</a>
-        <a href="Relatorios.html">Relatórios</a>
-    </nav>
-</aside>
+    <aside class="barra">
+        <h2>Fisiomais</h2>
+        <nav>
+            <a href="Dashboard.html">Dashboard</a>
+            <a href="Clientes.html">Pacientes</a>
+            <a href="Profissionais.html">Profissionais</a>
+            <a href="Agenda.html">Agenda</a>
+            <a href="Checkin.html">Check-in</a>
+            <a href="Prontuarios.html">Prontuários</a>
+            <a href="Financeiro.html">Financeiro</a>
+            <a href="Mensalidades.html">Mensalidades</a>
+            <a href="Configuracoes.html">Configurações</a>
+            <a href="Relatorios.html">Relatórios</a>
+        </nav>
+    </aside>
 
-<main class="main">
-    <h1>Agendamentos</h1>
+    <main class="main">
+        <h1>Agenda</h1>
 
-    <form class="form">
-        <label>Paciente</label>
-        <input type="text">
+        <section class="form">
+            <label>Paciente</label>
+            <input type="text" value="Ana Lima">
 
-        <label>Profissional</label>
-        <input type="text">
+            <label>Profissional</label>
+            <input type="text" value="Dr. Carlos">
 
-        <label>Data</label>
-        <input type="date">
+            <label>Data</label>
+            <input type="date" value="2026-01-25">
 
-        <label>Horário</label>
-        <input type="time">
+            <label>Horário</label>
+            <input type="time" value="14:00">
 
-        <button>Agendar</button>
-    </form>
-</main>
+            <button>Agendar</button>
+        </section>
+
+        <section class="tabela">
+            <h3>Agendamentos do Dia</h3>
+            <table>
+                <tr>
+                    <th>Hora</th>
+                    <th>Paciente</th>
+                    <th>Profissional</th>
+                </tr>
+                <tr>
+                    <td>09:00</td>
+                    <td>Pedro Alves</td>
+                    <td>Dra. Julia</td>
+                </tr>
+                <tr>
+                    <td>14:00</td>
+                    <td>Ana Lima</td>
+                    <td>Dr. Carlos</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
 
 </body>
+
 </html>
