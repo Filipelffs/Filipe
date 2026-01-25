@@ -7,12 +7,10 @@ body {
 }
 
 .topo {
-    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
 
-.btn-login,
 .btn {
     background: white;
     color: #2c8181;
@@ -22,8 +20,7 @@ body {
     font-weight: bold;
 }
 
-.btn:hover,
-.btn-login:hover {
+.btn:hover {
     background: #e0f2f2;
 }
 
