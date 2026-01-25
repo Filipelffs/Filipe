@@ -14,8 +14,16 @@ body {
     width: 220px;
     background: #2c8181;
     color: white;
-    height: 100vh;
+    height: 700px;
     padding: 20px;
+    position: fixed;
+    left: -180px;
+    top: 0;
+    transition: 0.3s;
+}
+
+.barra:hover {
+    left: 0;
 }
 
 .barra h2 {
@@ -115,19 +123,6 @@ th, td {
 
 th {
     background: #f0f0f0;
-}
-.barra {
-    position: fixed;
-    left: -180px;
-    top: 0;
-    width: 220px;
-    height: 100%;
-    background: #2c8181;
-    transition: 0.3s;
-}
-
-.barra:hover {
-    left: 0;
 }
 
 .main {

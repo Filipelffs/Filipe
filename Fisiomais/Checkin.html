@@ -1,38 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Check-in | Fisiomais</title>
     <link rel="stylesheet" href="css/pages.css">
 </head>
+
 <body>
 
-<aside class="barra">
-    <h2>Fisiomais</h2>
-    <nav>
-        <a href="Dashboard.html">Dashboard</a>
-        <a href="Clientes.html">Pacientes</a>
-        <a href="Profissionais.html">Profissionais</a>
-        <a href="Agenda.html">Agenda</a>
-        <a href="Checkin.html">Check-in</a>
-        <a href="Prontuarios.html">Prontuários</a>
-        <a href="Financeiro.html">Financeiro</a>
-        <a href="Mensalidades.html">Mensalidades</a>
-        <a href="Configuracoes.html">Configurações</a>
-        <a href="Relatorios.html">Relatórios</a>
-    </nav>
-</aside>
+    <aside class="barra">
+        <h2>Fisiomais</h2>
+        <nav>
+            <a href="Dashboard.html">Dashboard</a>
+            <a href="Clientes.html">Pacientes</a>
+            <a href="Profissionais.html">Profissionais</a>
+            <a href="Agenda.html">Agenda</a>
+            <a href="Checkin.html">Check-in</a>
+            <a href="Prontuarios.html">Prontuários</a>
+            <a href="Financeiro.html">Financeiro</a>
+            <a href="Mensalidades.html">Mensalidades</a>
+            <a href="Configuracoes.html">Configurações</a>
+            <a href="Relatorios.html">Relatórios</a>
+        </nav>
+    </aside>
 
-<main class="main">
-    <h1>Check-in de Paciente</h1>
+    <main class="main">
+        <h1>Check-in de Paciente</h1>
 
-    <form class="form" action="BancoCheck.html">
-        <label>Nome do Paciente</label>
-        <input type="text" required>
+        <form class="form">
+            <p>Controle de presença para os atendimentos.</p>
+            <br>
+            <br>
+            <input type="text" placeholder="Buscar..." required>
 
-        <button>Confirmar Presença</button>
-    </form>
-</main>
+            <button>Confirmar Presença</button>
+
+        </form>
+        <section class = "tabela">
+        <table>
+            <h2> <strong>Resultado</strong></h2>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Paciente</th>
+                    <th>Profissional</th>
+                    <th>Status</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>09:00</strong></td>
+                    <td>Pedro Alves</td>
+                    <td>Dra. Julia</td>
+                    <td> Aguardando</td>
+                    <td>Confirmar</td>
+                </tr>
+                <tr>
+                    <td><strong>10:30</strong></td>
+                    <td>Ana Lima</td>
+                    <td>Dr. Carlos</td>
+                    <td> Aguardando</td>
+                    <td>Confirmar</td>
+                </tr>
+                <tr>
+                    <td><strong>14:00</strong></td>
+                    <td>Marcos Silva</td>
+                    <td>Dra. Julia</td>
+                    <td> Aguardando</td>
+                    <td>Confirmar</td>
+                </tr>
+            </tbody>
+        </table>
+        </section>
+    </main>
 
 </body>
+
 </html>
