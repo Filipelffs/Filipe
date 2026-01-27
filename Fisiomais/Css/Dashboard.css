@@ -8,23 +8,15 @@
 body {
     display: flex;
     background: #f4f6f8;
+    min-height: 100vh;
 }
 
 .barra {
     width: 220px;
     background: #2c8181;
     color: white;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20px;
-    position: fixed;
-    left: -180px;
-    top: 0;
-    transition: 0.3s;
-    z-index: 1000;
-}
-
-.barra:hover {
-    left: 0;
 }
 
 .barra h2 {
@@ -126,19 +118,46 @@ th {
     background: #f0f0f0;
 }
 
-@media (max-width: 600px) {
+/* MOBILE */
+@media (max-width: 768px) {
+
     body {
-        background: lightblue;
+        flex-direction: column;
     }
 
     .barra {
         width: 100%;
+        min-height: auto;
         position: relative;
     }
-}
 
-@media (max-width: 900px) {
-    .container {
-        flex-direction: column;
+    .barra nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .barra nav a {
+        margin: 5px;
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .main {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .graficos {
+        grid-template-columns: 1fr;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
     }
 }
