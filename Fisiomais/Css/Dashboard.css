@@ -11,6 +11,15 @@ body {
     min-height: 100vh;
 }
 
+/* BOTÃO HAMBÚRGUER */
+.menu-btn {
+    display: none;
+    font-size: 32px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* SIDEBAR */
 .barra {
     width: 220px;
     background: #2c8181;
@@ -34,18 +43,63 @@ body {
     font-size: 16px;
 }
 
+/* CONTEÚDO */
 .main {
     flex: 1;
-    padding: 20px;
-}
-
-header {
+    padding: 30px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
 }
 
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* FORM */
+.form {
+    margin-top: 30px;
+    background: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.form label {
+    font-weight: bold;
+    margin-top: 15px;
+    display: block;
+}
+
+.form input,
+.form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.form input:focus {
+    border-color: #2c8181;
+}
+
+.form button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background: #2c8181;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* CARDS */
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -58,45 +112,20 @@ header {
     padding: 20px;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card h3 {
-    font-size: 15px;
-    color: #555;
 }
 
 .card p {
-    font-size: 28px;
-    margin-top: 10px;
-    color: #2c8181;
+    font-size: 22px;
     font-weight: bold;
+    color: #2c8181;
 }
 
-.graficos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    margin-bottom: 30px;
-}
-
-.grafico {
-    background: white;
-    padding: 20px;
-    border-radius: 12px;
-}
-
-.falso {
-    height: 150px;
-    background: linear-gradient(135deg, #bbdefb, #1e88e5);
-    border-radius: 8px;
-    margin-top: 15px;
-}
-
+/* TABELA */
 .tabela {
     background: white;
     padding: 20px;
     border-radius: 12px;
+    margin-top: 30px;
 }
 
 table {
@@ -105,19 +134,21 @@ table {
     margin-top: 15px;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-th {
-    background: #f0f0f0;
-}
-
+/* MOBILE */
 @media (max-width: 768px) {
 
     body {
         flex-direction: column;
+    }
+
+    .menu-btn {
+        display: block;
     }
 
     .barra {
@@ -125,8 +156,9 @@ th {
         top: 0;
         left: -100%;
         width: 70%;
-        height: auto;
-        min-height: auto;
+        height: 100vh;
+        transition: 0.3s;
+        z-index: 1000;
     }
 
     .barra.ativo {
@@ -138,8 +170,7 @@ th {
         padding: 15px;
     }
 
-    .cards,
-    .graficos {
+    .cards {
         grid-template-columns: 1fr;
     }
 
