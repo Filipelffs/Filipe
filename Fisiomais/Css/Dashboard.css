@@ -28,14 +28,10 @@ body {
     display: block;
     color: white;
     text-decoration: none;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 14px 16px;
+    margin: 12px 0;
     border-radius: 6px;
-    transition: 0.3s;
-}
-
-.barra nav a:hover {
-    background: rgba(255, 255, 255, 0.2);
+    font-size: 16px;
 }
 
 .main {
@@ -118,7 +114,6 @@ th {
     background: #f0f0f0;
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
 
     body {
@@ -126,21 +121,16 @@ th {
     }
 
     .barra {
-        width: 100%;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 70%;
+        height: auto;
         min-height: auto;
-        position: relative;
     }
 
-    .barra nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .barra nav a {
-        margin: 5px;
-        padding: 10px 14px;
-        font-size: 14px;
+    .barra.ativo {
+        left: 0;
     }
 
     .main {
@@ -148,10 +138,7 @@ th {
         padding: 15px;
     }
 
-    .cards {
-        grid-template-columns: 1fr;
-    }
-
+    .cards,
     .graficos {
         grid-template-columns: 1fr;
     }

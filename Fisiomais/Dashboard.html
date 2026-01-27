@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <title>Fisiomais | Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/Dashboard.css">
 </head>
 
 <body>
+
+    <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
     <aside class="barra">
         <h2>Fisiomais</h2>
         <nav>
@@ -48,6 +51,7 @@
                 <p>3</p>
             </div>
         </section>
+
         <section class="table-section">
             <h2>Últimos Agendamentos</h2>
             <table>
@@ -81,9 +85,13 @@
                 </tbody>
             </table>
         </section>
-
     </main>
 
-</body>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.barra').classList.toggle('ativo');
+        }
+    </script>
 
+</body>
 </html>
