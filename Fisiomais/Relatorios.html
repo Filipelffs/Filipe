@@ -1,79 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Relatórios | Fisiomais</title>
     <link rel="stylesheet" href="Css/Dashboard.css">
 </head>
+
 <body>
+    <aside class="barra">
+        <h2>Fisiomais</h2>
+        <nav>
+            <a href="Dashboard.html">Dashboard</a>
+            <a href="Clientes.html">Pacientes</a>
+            <a href="Profissionais.html">Profissionais</a>
+            <a href="Agenda.html">Agenda</a>
+            <a href="Checkin.html">Check-in</a>
+            <a href="Prontuarios.html">Prontuários</a>
+            <a href="Financeiro.html">Financeiro</a>
+            <a href="Mensalidades.html">Mensalidades</a>
+            <a href="Configuracoes.html">Configurações</a>
+            <a href="Relatorios.html">Relatórios</a>
+        </nav>
+    </aside>
 
-<aside class="barra">
-    <h2>Fisiomais</h2>
-    <nav>
-        <a href="Dashboard.html">Dashboard</a>
-        <a href="Clientes.html">Pacientes</a>
-        <a href="Profissionais.html">Profissionais</a>
-        <a href="Agenda.html">Agenda</a>
-        <a href="Checkin.html">Check-in</a>
-        <a href="Prontuarios.html">Prontuários</a>
-        <a href="Financeiro.html">Financeiro</a>
-        <a href="Mensalidades.html">Mensalidades</a>
-        <a href="Configuracoes.html">Configurações</a>
-        <a href="Relatorios.html">Relatórios</a>
-    </nav>
-</aside>
+    <main class="main">
+        <h1>Relatórios Gerenciais</h1>
+        <br>
+        <br>
+        <br>
+        <section class="form">
+            <label>Tipo de Relatório</label>
+            <select>
+                <option>Atendimentos</option>
+                <option>Financeiro</option>
+                <option>Pacientes</option>
+                <option>Profissionais</option>
+            </select>
 
-<main class="main">
-    <h1>Relatórios Gerenciais</h1>
+            <label>Data Inicial</label>
+            <input type="date" value="2026-01-01">
 
-    <section class="form">
-        <label>Tipo de Relatório</label>
-        <select>
-            <option>Atendimentos</option>
-            <option>Financeiro</option>
-            <option>Pacientes</option>
-            <option>Profissionais</option>
-        </select>
+            <label>Data Final</label>
+            <input type="date" value="2026-01-31">
 
-        <label>Data Inicial</label>
-        <input type="date" value="2026-01-01">
-
-        <label>Data Final</label>
-        <input type="date" value="2026-01-31">
-
-        <button>Gerar Relatório</button>
-    </section>
-
-    <section class="tabela">
-        <h3>Resultado - Atendimentos Janeiro/2026</h3>
-        <table>
-            <tr>
-                <th>Data</th>
-                <th>Paciente</th>
-                <th>Profissional</th>
-                <th>Procedimento</th>
-            </tr>
-            <tr>
-                <td>26/01/2026</td>
-                <td>Ana Lima</td>
-                <td>Dr. Carlos</td>
-                <td>Fisioterapia Lombar</td>
-            </tr>
-            <tr>
-                <td>26/01/2026</td>
-                <td>Pedro Alves</td>
-                <td>Dra. Julia</td>
-                <td>Reabilitação Joelho</td>
-            </tr>
-            <tr>
-                <td>28/01/2026</td>
-                <td>Marcos Silva</td>
-                <td>Dra. Julia</td>
-                <td>Pós-operatório Ombro</td>
-            </tr>
-        </table>
-    </section>
-</main>
+            <button>Gerar Relatório</button>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section class="tabela">
+            <h3>Resultado - Atendimentos Janeiro/2026</h3>
+            <table>
+                <tr>
+                    <th>Data</th>
+                    <th>Paciente</th>
+                    <th>Profissional</th>
+                    <th>Procedimento</th>
+                </tr>
+                <tr>
+                    <td>26/01/2026</td>
+                    <td>Ana Lima</td>
+                    <td>Dr. Carlos</td>
+                    <td>Fisioterapia Lombar</td>
+                </tr>
+                <tr>
+                    <td>26/01/2026</td>
+                    <td>Pedro Alves</td>
+                    <td>Dra. Julia</td>
+                    <td>Reabilitação Joelho</td>
+                </tr>
+                <tr>
+                    <td>28/01/2026</td>
+                    <td>Marcos Silva</td>
+                    <td>Dra. Julia</td>
+                    <td>Pós-operatório Ombro</td>
+                </tr>
+            </table>
+        </section>
+    </main>
 
 </body>
+
 </html>

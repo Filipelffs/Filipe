@@ -1,44 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Profissionais | Fisiomais</title>
     <link rel="stylesheet" href="css/pages.css">
 </head>
+
 <body>
+    <aside class="barra">
+        <h2>Fisiomais</h2>
+        <nav>
+            <a href="Dashboard.html">Dashboard</a>
+            <a href="Clientes.html">Pacientes</a>
+            <a href="Profissionais.html">Profissionais</a>
+            <a href="Agenda.html">Agenda</a>
+            <a href="Checkin.html">Check-in</a>
+            <a href="Prontuarios.html">Prontuários</a>
+            <a href="Financeiro.html">Financeiro</a>
+            <a href="Mensalidades.html">Mensalidades</a>
+            <a href="Configuracoes.html">Configurações</a>
+            <a href="Relatorios.html">Relatórios</a>
+        </nav>
+    </aside>
 
-<aside class="barra">
-    <h2>Fisiomais</h2>
-    <nav>
-        <a href="Dashboard.html">Dashboard</a>
-        <a href="Clientes.html">Pacientes</a>
-        <a href="Profissionais.html">Profissionais</a>
-        <a href="Agenda.html">Agenda</a>
-        <a href="Checkin.html">Check-in</a>
-        <a href="Prontuarios.html">Prontuários</a>
-        <a href="Financeiro.html">Financeiro</a>
-        <a href="Mensalidades.html">Mensalidades</a>
-        <a href="Configuracoes.html">Configurações</a>
-        <a href="Relatorios.html">Relatórios</a>
-    </nav>
-</aside>
+    <main class="main">
+        <h1>Cadastro de Profissionais</h1>
 
-<main class="main">
-    <h1>Cadastro de Profissionais</h1>
+        <form class="form">
+            <label>Nome</label>
+            <input type="text" required>
 
-    <form class="form">
-        <label>Nome</label>
-        <input type="text" required>
+            <label>Especialidade</label>
+            <input type="text">
 
-        <label>Especialidade</label>
-        <input type="text">
+            <label>Registro (CREFITO)</label>
+            <input type="text">
 
-        <label>Registro (CREFITO)</label>
-        <input type="text">
+            <button>Cadastrar Profissional</button>
+        </form>
 
-        <button>Cadastrar Profissional</button>
-    </form>
-</main>
+        <section class="tabela">
+            <h3>Profissionais</h3>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Especialidade</th>
+                    <th>CREFITO</th>
+                </tr>
+                <tr>
+                    <td>Pedro Alves</td>
+                    <td>Fisioterapelta</td>
+                    <td>1929312</td>
+                </tr>
+                <tr>
+                    <td>Ana Lima</td>
+                    <td>Fisioterapelta</td>
+                    <td>9213912</td>
+                </tr>
+                <tr>
+                    <td>Marcos Silva</td>
+                    <td>Fisioterapelta</td>
+                    <td>0210301</td>
+                </tr>
+            </table>
+        </section>
+    </main>
 
 </body>
+
 </html>

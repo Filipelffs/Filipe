@@ -1,47 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Clientes | Fisiomais</title>
     <link rel="stylesheet" href="css/pages.css">
 </head>
+
 <body>
+    <aside class="barra">
+        <h2>Fisiomais</h2>
+        <nav>
+            <a href="Dashboard.html">Dashboard</a>
+            <a href="Clientes.html">Pacientes</a>
+            <a href="Profissionais.html">Profissionais</a>
+            <a href="Agenda.html">Agenda</a>
+            <a href="Checkin.html">Check-in</a>
+            <a href="Prontuarios.html">Prontuários</a>
+            <a href="Financeiro.html">Financeiro</a>
+            <a href="Mensalidades.html">Mensalidades</a>
+            <a href="Configuracoes.html">Configurações</a>
+            <a href="Relatorios.html">Relatórios</a>
+        </nav>
+    </aside>
 
-<aside class="barra">
-    <h2>Fisiomais</h2>
-    <nav>
-        <a href="Dashboard.html">Dashboard</a>
-        <a href="Clientes.html">Pacientes</a>
-        <a href="Profissionais.html">Profissionais</a>
-        <a href="Agenda.html">Agenda</a>
-        <a href="Checkin.html">Check-in</a>
-        <a href="Prontuarios.html">Prontuários</a>
-        <a href="Financeiro.html">Financeiro</a>
-        <a href="Mensalidades.html">Mensalidades</a>
-        <a href="Configuracoes.html">Configurações</a>
-        <a href="Relatorios.html">Relatórios</a>
-    </nav>
-</aside>
+    <main class="main">
+        <h1>Cadastro de Clientes</h1>
 
-<main class="main">
-    <h1>Cadastro de Clientes</h1>
+        <form class="form">
+            <label>Nome</label>
+            <input type="text" required>
 
-    <form class="form">
-        <label>Nome</label>
-        <input type="text" required>
+            <label>Email</label>
+            <input type="email">
 
-        <label>Email</label>
-        <input type="email">
+            <label>Telefone</label>
+            <input type="text">
 
-        <label>Telefone</label>
-        <input type="text">
+            <label>Data de Nascimento</label>
+            <input type="date">
 
-        <label>Data de Nascimento</label>
-        <input type="date">
+            <button>Cadastrar Cliente</button>
+        </form>
 
-        <button>Cadastrar Cliente</button>
-    </form>
-</main>
+        <section class="tabela">
+            <h3>Pacientes</h3>
+            <table>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>Data de Nascimento</th>
+                </tr>
+                <tr>
+                    <td>Pedro Alves</td>
+                    <td>Pedro@gmail.com</td>
+                    <td>87 91922-9219</td>
+                    <td>24/02/2000</td>
+                </tr>
+                <tr>
+                    <td>Ana Lima</td>
+                    <td>Ana@gmail.com</td>
+                    <td>87 91293-1122</td>
+                    <td>12/03/2003</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Marcos Silva</td>
+                    <td>Marcos@gmail.com</td>
+                    <td>87 91211-2213</td>
+                    <td>19/06/1992</td>
+                </tr>
+            </table>
+        </section>
+    </main>
 
 </body>
+
 </html>
